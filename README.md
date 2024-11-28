@@ -1,20 +1,22 @@
-# FULL_ADDER_SUBTRACTOR
+### NAME : MADHUPRIYA.R
+### REFERENCE NO : 24900083
+### EXPERIMENT NO .4: FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
-**AIM:**
+# AIM:
 
 To design a Full Adder and Full Subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
-**Equipments Required:**
+# EQUIPMENTS REQUIRED:
 
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
 
-**Full Adder and Full Subtractor**
+# FULL ADDER and FULL SUBTRACTOR:
 
-**Full Adder**
+# FULL ADDER:
 
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
@@ -24,9 +26,9 @@ Carry = AB + ACin + BCin
 
 ![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
 
-**Figure -1 FULL ADDER**
+# Figure -1 FULL ADDER:
 
-**Full Subtractor**
+# FULL SUBTRACTOR:
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
@@ -36,22 +38,30 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
-**Truthtable**
+# TRUTH TABLE:
 
-**Procedure**
 
-Write the detailed procedure here
+![TT 4 EX](https://github.com/user-attachments/assets/8e03d675-961d-48e9-9488-a7311e751748)
 
-**Program:**
+# PROCEDURE:
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Implementing BOOLEAN functions in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against expected results.
 
-**RTL Schematic**
+# PROGRAM:
 
-**Output Timing Waveform**
 
-**Result:**
+![EX 4](https://github.com/user-attachments/assets/9e7f0243-43d9-452c-824b-62963166b008)
+
+# RTL SYSTEMATIC:
+
+![logic gate diagram 4](https://github.com/user-attachments/assets/fb36aa01-0bc2-4188-a894-81d7d2d40b70)
+
+
+# OUTPUT WAVEFORM:
+
+![4 waveform](https://github.com/user-attachments/assets/49cd36eb-1428-43f9-b6d0-8f5579d7c1ed)
+
+# RESULT:
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
