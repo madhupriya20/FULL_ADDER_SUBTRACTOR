@@ -1,6 +1,6 @@
 ### NAME : MADHUPRIYA.R
 ### REFERENCE NO : 24900083
-# EXPERIMENT NO .4: FULL_ADDER_SUBTRACTOR
+# EXPERIMENT NO .4: FULL ADDER AND SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
